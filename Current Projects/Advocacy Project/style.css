@@ -100,3 +100,159 @@ a:link{
   text-decoration: none;
   color: white;
 }
+.formclasss{
+  display: flex;
+  flex-direction: row; /* Make the container a flex row */
+  justify-content: space-between; /* Separate the form and paragraph */
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  border: 30px;
+  margin-left: 0px;
+  border-left:0px;
+  padding-left: 0px;
+  margin-right: 20px;
+  border-right: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+.form-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.petition-input{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.psuggest1 {
+  display: inline-block;
+  justify-content: right;
+  text-align: right; 
+  font-size: 24px; 
+  background-size: 50%;
+  padding: 15px; /* Adjust the padding as needed to fit the text */
+  margin: 10px;
+  border: 10px;
+  vertical-align: top;
+}
+/* Set the width and height of the feedback textarea as needed */
+#Feedback {
+  width: 191px; /* You can adjust the width to your preference */
+  height: 128px; /* You can adjust the height to your preference */
+  resize: none;
+}
+.Sugesstion-message{
+  display: flex;
+  flex-direction: row;
+  justify-content:;
+}
+.image-container {
+  position: relative; /* Make the image container a positioning context for the absolute positioning of the image */
+}
+
+.overlap-image {
+  position:static;
+  top: 0; /* Adjust the top value to position the image vertically */
+  right: 0; /* Adjust the right value to position the image horizontally */
+  z-index: 1; /* Make sure the image appears on top of the paragraph content */
+  width: 100px; /* Set the width to the desired size */
+  height: auto; /* Maintain the aspect ratio by setting height to auto */
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.petition-section {
+  flex: 1;
+}
+
+.signatures-section {
+  flex: 1;
+}
+
+#signatureList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.signature {
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: #f9f9f9;
+}
+/* Add style to button */
+#theme-button {
+color:white;
+background-color:black;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color:  midnightblue; /* Change background color to black */
+ color: black; /* Change text color to white */
+}
+.dark-mode h1{
+  color: white;
+}
+.dark-mode body{
+  color: white;
+}
+.dark-mode label {
+color:white
+}
+.dark-mode input#text{
+  background-color: black;
+  color: white;
+  border: 1px solid white; /* You can adjust the border style as needed */
+}
+.dark-mode p.psuggest1{
+  background-color: black;
+  color: white;
+}
+.dark-mode p.my-flex-item p1{
+  background-color: black;
+  color: white;
+}
+/* Add more styles for other elements as needed */
+body.dark-mode p{
+  color: white; /* Set text color to white */
+  background-color: black; /* Set background color to dark blue */
+}
+body.dark-mode .navbar .button {
+  background-color: black;
+  color: white;
+}
+body.dark-mode .navbar .button a {
+  color: white;
+}
+/* Change the button text color in dark mode */
+body.dark-mode #theme-button {
+  color: black;
+  background-color: white;
+}

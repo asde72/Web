@@ -12,18 +12,33 @@
 
 <body>
   <h1><a href="index.html">Home</a></h1>
-  <div class="my-flex-container">
-    <div class="navbar"> 
-      <h1 class="button"><a href="credit.html"> 
-      Credit</a></h1> 
-      <h1 class="button"><a href="General Tips.html">General Tips</a></h1>
-      <h1 class="button"> <a href="Investing.html"> 
-      Investing</a> </h1>
-      <button id="theme-button">Toggle Dark Mode</button>
+  <button id="theme-button">Toggle Dark Mode</button>
+  <h1 style="text-align: center;">Suggestions</h1>
+  <div class="form-container">
+
+    <div class="formclass">
+      <form id="Suggestions_Box">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="Email"> Email Address:</label>
+        <input type="text" id="Email">
+        <label for="Feedback">  Feedback: </label>
+        <textarea id="Feedback" rows="4" cols="50"></textarea>
+        <button id="suggestionsSubmit" type="button">Submit</button>
+      </form>
+    </div>
+    <div class="image-container">
+      <img src="smileyface.png" class="overlap-image">
+      <img src="smileyface.png" class="overlap-image">
+      <img src="smileyface.png" class="overlap-image">
+      <img src="smileyface.png" class="overlap-image">
+      <img src="smileyface.png" class="overlap-image">
+      <p class="psuggest1"> Help us make an impact and improve this site. Please enter any feedback/suggestions on topics you think we should cover next!
+      </p>
     </div>
   </div>
-  
-  <script src="script.js"></script>
+
+  <script src="suggestionsScript.js"></script>
 
   <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
@@ -37,10 +52,9 @@
       <li><a href="https://www.investopedia.com/terms/c/credit">Credit</a></li>
       <li><a href=https://www.investopedia.com/guide-to-financial-literacy-4800530">Guide to finacial literacy</a></li> 
       <li><a href="Sugesstion_box.html">Sugesstions</a></li>
-      
     </ul>
   </div>
-<script src="darkmode.js"></script>
+  <script src="darkmode.js"></script>
 
 </body>
 

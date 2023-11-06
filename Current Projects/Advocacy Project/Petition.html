@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Budgeting</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1><a href="index.html">Home</a></h1>
+  <button id="theme-button">Toggle Dark Mode</button>
+  <h1 style="text-align: center;">Sign Our petition!</h1>
+  <div class="content">
+    <div class="petition-section">
+      <p class="psuggest1">
+        Financial literacy is an essential skill that should be taught mandatory in all public schools. Too many children grow up with little to no guidance on how they should operate financially. By supporting this message, you'd help us reach out and make some change. Help us spread the message and show your support by signing this petition here. We are one step closer to our goal!
+      </p>
+      <form class="petition-input" id="Petition_box">
+        <label style="display: inline-block;" for="namep">Name:</label>
+        <input style="display: inline-block;" type="text" id="namep">
+        <label style="display: inline-block;" for="Emailp"> Email Address:</label>
+        <input style="display: inline-block;" type="text" id="Emailp">
+        <button id="petitionSubmit" style="display: block;" type="button">Sign now!</button>
+      </form>
+    </div>
+    <div class="signatures-section">
+      <ul id="signatureList"></ul>
+    </div>
+  </div>
+
+  <script src="petitionScript.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  <div class="footer">
+    <ul class="footer-links">
+      <li><a href="Petition.html">Sign Our Petition!</a></li>
+      <li><a href="https://www.investopedia.com/terms/c/credit">Credit</a></li>
+      <li><a href="https://www.investopedia.com/guide-to-financial-literacy-4800530">Guide to financial literacy</a></li>
+      <li><a href="Suggestion_box.html">Suggestions</a></li>
+    </ul>
+  </div>
+  <script src="darkmode.js"></script>
+
+</body>
+
+</html>
